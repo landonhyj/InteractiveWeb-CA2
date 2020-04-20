@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>bookstore</title>
+
+  <!--                   Bootstrap core CSS                    -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/dublinBookstore.css" rel="stylesheet" type="text/css"/>
+
+  <img src="img/books.jpg" id="bg" alt="">
+</head>
+
+<body>
+
+    
+
+
+  <!--                  Navigation bar                      -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-Peru static-top">
+
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Dublin's bookstore</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--                        Page Content                      -->
+  <div class="container">
+    <div class="row2">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5" >Welcome to Dublin's bookstore</h1>
+        <p class="lead" id="sec-title">Choose a book from the list</p>
+    </div>
+    <div id="results" class="col-lg-12 text-center order-3"></div>
+    <div class="col-lg-3 text-center order-3">
+            <form enctype="application/json" action="/post/json" method="post">
+            <!--              Books category                      -->
+                <div class="form-group">
+                    <select class="form-control" name="sec_n">
+                    <div id = "title_type">
+                        <option value="0">Science Fiction</option>
+                        <option value="1">Non Fiction</option>
+                        <option value="2">Fiction</option>
+                    </div>
+                    </select>
+                </div>
+            <!--  Creating input fields for insert book's details -->
+                <div class="form-group">
+                    <input class="form-control" type="text" name="title" placeholder="Title" min="1" max="100" title="Please insert the title" required>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="author" placeholder="Author" title="Please insert the author's name" required>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="number" name="year" placeholder="Year" step="1" title="Please insert just number" required>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="number" name="price" placeholder="Price" min="0.00" max="10000.00" step="0.01" title="Please insert in number only" required> 
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                
+            </form>
+            <!--        The submit and delete button                -->
+                <button id="delete" class="btn btn-block btn-danger">Delete!!</button>
+                <p class="text-muted">To delete a book, click the required row first</p>
+            
+        </div>
+    </div> 
+</div>
+    <!--            Footer              -->
+    <footer class="footer">
+     <div class="container">
+        <span class="text-muted">&copy; YANJUEHAU_2017165</span>
+      </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="jquery/jquery.min.js"></script>
+  <script src="jquery/table.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

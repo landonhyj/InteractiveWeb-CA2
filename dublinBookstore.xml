@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookstore>
+        
+    <!-- Science fiction category with the details of books -->
+
+  <book category="Science Fiction">
+    <details>
+      <title>Brave New World</title>
+      <author>Aldous Huxley</author>
+      <year>1932</year>
+      <price>9.19</price>
+    </details>
+    <details>
+      <title>The Supernova Era</title>
+      <author>Cixin Liu</author>
+      <year>2019</year>
+      <price>16</price>
+    </details>
+    <details>
+      <title> Salvation Lost</title>
+      <author> Peter F. Hamilton</author>
+      <year>2019</year>
+      <price>16.01</price>
+    </details>
+    <details>
+      <title> Elysium Fire</title>
+      <author>Alastair Reynolds</author>
+      <year>2018</year>
+      <price>9.23</price>
+    </details>
+  </book>
+      
+  <!-- Non fiction category with the details of books -->
+
+  <book category="Non Fiction">
+    <details>
+      <title>The Victorian Internet</title>
+      <author>Tom Standage</author>
+      <year>1998</year>
+      <price>8.99</price>
+    </details>
+    <details>
+      <title>East West Street </title>
+      <author>Philippe Sands</author>
+      <year>2017</year>
+      <price>10.08</price>
+    </details>
+    <details>
+      <title>A Slip of the Keyboard</title>
+      <author>Terry Pratchett</author>
+      <year>2015</year>
+      <price>9.30</price>
+    </details>
+  </book>
+
+    <!-- Fiction category with the details of books -->
+
+  <book category="Fiction">
+    <details>
+      <title>On the Come Up</title>
+      <author>Angie Thomas</author>
+      <year> 2019</year>
+      <price>9.99</price>
+    </details>
+    <details>
+      <title>Circe</title>
+      <author>Madeline Miller</author>
+      <year>2019</year>
+      <price>8.45</price>
+    </details>
+    <details>
+      <title>The Underground Railroad</title>
+      <author>Colson Whitehead</author>
+      <year>2017</year>
+      <price>9.15</price>
+    </details>
+  </book>
+</bookstore>
