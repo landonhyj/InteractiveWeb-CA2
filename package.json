@@ -1,0 +1,30 @@
+{
+  "name": "interactiveweb-ca2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "mongodb": "^3.5.6",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "xml2js": "^0.4.23",
+    "xslt-processor": "^0.11.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landonhyj/InteractiveWeb-CA2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landonhyj/InteractiveWeb-CA2/issues"
+  },
+  "homepage": "https://github.com/landonhyj/InteractiveWeb-CA2#readme"
+}
